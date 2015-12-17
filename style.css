@@ -1,0 +1,8 @@
+/* FOOTER - Caluculator */
+div#divCalc { float: left; width: 300px; margin: 16px; text-align: left; }
+#footer div#divCalc p { margin: 15px 0px; }
+tr { margin-top: 12px; clear: both; float: left; }
+div#yards { font-size: 18px; }
+div#yards { font-size: 18px; float: left; margin-left: 12px; margin-top: 14px; }
+.new-calc a { color: #85a739;}
+.new-calc a:hover { text-decoration:none; background:#85a739; color: white !important; }

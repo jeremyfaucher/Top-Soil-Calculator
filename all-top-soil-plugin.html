@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Untitled Document</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/MulchCalc.js"></script>
+    </head>
+
+    <body>
+        <div id="divCalc">
+            <h3>Mulch / Top Soil<span> Calculator</span></h3>
+            <p>Enter your dimensions and click "Calculate"</p>
+            <form>
+                <table cellpadding="2" cellspacing="0">
+                    <tr>
+                        <td>
+                            <input style="background-color:#fff;" type="text" id="length" size="5" />
+                        </td>
+                        <td>&nbsp;&nbsp;Length (in feet)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input style="background-color:#fff;" type="text" id="width" size="5" />
+                        </td>
+                        <td>&nbsp;&nbsp;Width (in feet)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input style="background-color:#fff;" type="text" id="depth" size="5" />
+                        </td>
+                        <td>&nbsp;&nbsp;Depth (in inches)</td>
+                    </tr>
+                </table>
+                <div class="enter-calc">
+                    <input type="button" value="Calculate" onclick="calc()" class="button-calc" />
+                </div>
+            </form>
+        </div>
+        <div id="divResult" style="text-align:left;display:none;">
+            <div id="yards"></div>
+            <br />
+            <div class="new-calc"><a href="javascript:startOver();">New Calculation</a></div>
+        </div>
+    </body>
+</html>
