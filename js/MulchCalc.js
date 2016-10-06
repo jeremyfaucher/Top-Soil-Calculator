@@ -5,8 +5,8 @@
  * Plugin Name:     Advanced Ads Pro
  * Plugin URI:      https://github.com/jeremyfaucher/top-soil-calculator
  * Description:     Advanced features to boost your ad revenue.
- * Version:     1.0.0
- * Author:      Jeremy Faucher
+ * Version:         1.0.0
+ * Author:          Jeremy Faucher
  * Author URI:      https://cafefaucher.com
  */
 function calc() {
